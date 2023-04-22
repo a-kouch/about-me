@@ -1,3 +1,5 @@
+This is my portfolio created on the React framework aimed to showcase my projects as well as my front end development skills.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
