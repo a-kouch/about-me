@@ -19,6 +19,7 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+    
 `
 export const InfoRow = styled.div`
     display: grid;
@@ -128,20 +129,27 @@ export const InfoP3 = styled.p`
 `
 export const InfoP4 = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    // margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
 `
 
-export const BtnWrap = styled.div`
-    display: flex;
-    justified-content: flex-start;
+export const InfoP5 = styled.p`
+    max-width: 440px;
+    // margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
 `
+
 
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+
+    @media screen and (max-width: 768px) {
+        max-width: 300px;
 `
 
 export const Img = styled.img`

@@ -1,8 +1,8 @@
 import React from 'react'
 // import { Button } from '../ButtonElements'
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, TopLineP1, TopLineP2, TopLineP3, TopLineP4, InfoP1, InfoP2, InfoP3, InfoP4, ImgWrap, Img } from './InfoElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, TopLineP1, TopLineP2, TopLineP3, TopLineP4, InfoP1, InfoP2, InfoP3, InfoP4, InfoP5, ImgWrap, Img } from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, lightText, headline, darkText, topLine1, topLine2, topLine3, topLine4, description1, description2, description3, description4, img, alt}) => {
+const InfoSection = ({lightBg, id, imgStart, lightText, headline, darkText, topLine1, topLine2, topLine3, topLine4, description1, description2, description3, description4, description5, img, alt}) => {
   return (
     <>
         <InfoContainer lightBg={lightBg} id={id}>
@@ -19,6 +19,7 @@ const InfoSection = ({lightBg, id, imgStart, lightText, headline, darkText, topL
                             <InfoP3 darkText={darkText}>{description3}</InfoP3>
                             <TopLineP4>{topLine4}</TopLineP4>
                             <InfoP4 darkText={darkText}>{description4}</InfoP4>
+                            <InfoP5 darkText={darkText}>{description5}</InfoP5>
                         </TextWrapper>
                     </Column1>
                     <Column2>

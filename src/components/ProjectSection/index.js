@@ -36,9 +36,9 @@ const Projects = () => {
                 <ProjectsH2>Project #3</ProjectsH2>
                 <ProjectsIcons> <FaPython /> <BsFiletypeSql /> </ProjectsIcons>
                 <ProjectsP>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </ProjectsP>
-                <ProjectsP><strong>Challenges:</strong> Cumque vitae tempore voluptatum maxime reprehenderit eum exercitationem fugit, qui corporis.</ProjectsP>
-                <ProjectsP><strong>Successes:</strong></ProjectsP>
-                <ProjectsP><strong>Technical aspects :</strong></ProjectsP>
+                <ProjectsP><strong>Challenges:</strong> Phasellus eros libero, vestibulum in sagittis eget, maximus id elit.</ProjectsP>
+                <ProjectsP><strong>Successes:</strong> Nulla lobortis massa et eros lobortis, eget eleifend lacus lobortis. </ProjectsP>
+                <ProjectsP><strong>Technical aspects :</strong> Quisque in blandit tellus.</ProjectsP>
             </ProjectsCard>
         </ProjectsWrapper>
     </ProjectsContainer>

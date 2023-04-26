@@ -8,6 +8,10 @@ export const ProjectsContainer = styled.div`
     align-items: center;
     background: #f9f9f9;
     
+    @media screen and (max-width: 1000px) {
+        padding-top: 650px;
+        padding-bottom: 650px;
+    }
 
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -28,7 +32,7 @@ export const ProjectsWrapper = styled.div`
     padding: 0 50px;
 
     @media screen and (max-width: 1000px) {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     @media screen and (max-width: 768px) {
@@ -49,7 +53,7 @@ export const ProjectsCard = styled.div`
     align-items: center;
     border-radius: 10px;
     height: 450px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
     transition: all 0.2s ease-in-out;
 
@@ -92,12 +96,3 @@ export const ProjectsIcons = styled.p`
     font-size: 1.5rem;
     text-align: center;
 `
-
-// export const ProjectsH3 = styled.p`
-//     color: #33D4FF;
-//     font-size: 16px;
-//     line-height: 16px;
-//     font-weight: 700;
-//     text-transform: uppercase;
-//     justify-items: start;
-// `
