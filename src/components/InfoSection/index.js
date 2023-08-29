@@ -17,9 +17,10 @@ const InfoSection = ({lightBg, id, imgStart, lightText, headline, darkText, topL
                             <InfoP2 darkText={darkText}>{description2}</InfoP2>
                             <TopLineP3>{topLine3}</TopLineP3>
                             <InfoP3 darkText={darkText}>{description3}</InfoP3>
-                            <TopLineP4>{topLine4}</TopLineP4>
                             <InfoP4 darkText={darkText}>{description4}</InfoP4>
+                            <TopLineP4>{topLine4}</TopLineP4>
                             <InfoP5 darkText={darkText}>{description5}</InfoP5>
+                            <InfoP6 darkText={darkText}>{description6}</InfoP6>
                         </TextWrapper>
                     </Column1>
                     <Column2>
