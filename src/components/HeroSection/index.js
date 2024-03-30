@@ -19,7 +19,7 @@ const HeroSection = () => {
             <HeroH1>Hi! I'm Anthony Kouch</HeroH1>
             <HeroH2>Welcome to my website.</HeroH2>
             <HeroP>
-                I am a self taught programmer with a deep interest in cloud computing and cybersecurity. Looking to approach software development from a holistic perspective, taking into account the security and scalability of applications.
+                An optometrist and originally self taught programmer. I am now currently studying Data Analytics looking to leverage my own interests and skills into the realm of data science. 
             </HeroP>
             <HeroBtnWrapper>
                 <Button
