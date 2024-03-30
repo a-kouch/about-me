@@ -52,7 +52,7 @@ export const ProjectsCard = styled.div`
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    height: 450px;
+    height: 500px;
     padding: 15px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
     transition: all 0.2s ease-in-out;
@@ -95,4 +95,22 @@ export const ProjectsP = styled.p`
 export const ProjectsIcons = styled.p`
     font-size: 1.5rem;
     text-align: center;
+`
+
+export const SocialIcons = styled.div`
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // width: 240px;
+`
+
+export const SocialIconLink = styled.a`
+    color: #fa1e4e;
+    font-size: 24px;
+    // margin: 10px;
+
+    &:hover {
+        color: #010606;
+        transition: 0.3s ease-out;
+    }
 `

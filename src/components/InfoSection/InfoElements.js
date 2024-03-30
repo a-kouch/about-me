@@ -61,6 +61,18 @@ export const TopLineP1 = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-top: 10px;
+`
+
+export const TopLineSoftware = styled.p`
+    color: #fa1e4e;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 16px;
 `
 
 export const TopLineP2 = styled.p`
@@ -71,6 +83,7 @@ export const TopLineP2 = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-top: 10px;
 `
 
 export const TopLineP3 = styled.p`
@@ -81,6 +94,7 @@ export const TopLineP3 = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-top: 10px;
 `
 
 export const TopLineP4 = styled.p`
@@ -91,6 +105,7 @@ export const TopLineP4 = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-top: 10px;
 `
 
 export const Heading = styled.h1`
@@ -122,14 +137,14 @@ export const InfoP2 = styled.p`
 `
 export const InfoP3 = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
 `
 export const InfoP4 = styled.p`
     max-width: 440px;
-    // margin-bottom: 35px;
+    margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
@@ -143,6 +158,29 @@ export const InfoP5 = styled.p`
     color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
 `
 
+export const InfoP6 = styled.p`
+    max-width: 440px;
+    // margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
+`
+
+export const InfoP7 = styled.p`
+    max-width: 440px;
+    // margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
+`
+
+export const InfoSoftware = styled.p`
+    max-width: 440px;
+    // margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
+`
 
 export const ImgWrap = styled.div`
     max-width: 555px;
